@@ -16,7 +16,7 @@ elif [[ $1 == "--logs" ]]; then
 elif [[ $1 == "--help" ]]; then
   echo "Dostępne opcje:"
   echo "  --date    Wyświetla dzisiejszą datę"
-  echo "  --logs    Tworzy automatycznie 100 plików logx.txt"
+  echo "  --logs    Tworzy automatycznie x plików logx.txt"
   echo "            x - numer pliku od 1 - 100, w każdym pliku wpisuje jego nazwę,"
   echo "            nazwę skryptu który go utworzył i datę"
   echo "            Użycie: skrypt.sh --logs [liczba plików]"
